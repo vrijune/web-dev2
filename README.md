@@ -124,7 +124,7 @@ Exercise Eleven &ndash; Submitting form data
 
 Create the ```ictgradschool/web/lab02/ex11``` folder, and copy the ```form.html``` file from the ```ictgradschool/web/lab02/ex10``` folder.
  
-Modify your form so that when the "Submit" button is pressed, the data is submitted to the application located at the <https://sporadic.nz/web_lab_echo_service/> address.
+Modify your form so that when the "Submit" button is pressed, the data is submitted to the application located at the <https://trex-sandwich.com/echo/> address.
 
 Preview your form and try submitting it.
 - What is shown to you after submitting the page?
