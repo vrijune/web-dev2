@@ -41,12 +41,10 @@ Open the ```potassium.html``` file and insert a ```<video>``` element at the bot
 
 Ensure that your video can be played in at least one browser, and that you can start and stop the video at will.
 
-Modify the appropriate tag so that the video auto-plays and repeats.
-
 Open this file in both Internet Explorer and Google Chrome.
-- Which video plays in Internet Explorer?
-- Which video plays in Google Chrome?
-- What happens if you switch the position of the ```<source>```s within the ```<video>``` tag?
+- Which video/s play in Internet Explorer?
+- Which video/s play in Google Chrome?
+- What happens if you switch the position of the ```<source>``` elements within the ```<video>``` tag?
 
 Type your answers to the above questions in the space below.
 
