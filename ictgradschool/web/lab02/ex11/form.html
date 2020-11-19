@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="https://trex-sandwich.com/echo/" method="post">
+    <fieldset>
+        <legend>Your details</legend>
+        <p>
+            <label for="ID">Name</label><br>
+            <input type="text" id="ID" name="Name">
+        </p>
+        <p>
+            <label for="contact">Email</label><br>
+            <input type="text" id="contact" name="Name">
+        </p>
+        <p>
+            <label for="address">Your city</label><br>
+            <input type="text" id="address" name="Your city">
+        </p>
+
+    </fieldset>
+<fieldset>
+    <legend>Questionnaire</legend>
+
+    <input type="checkbox" name="find_choice" value="enjoying it" id="en">
+    <label for="en">Enjoying it</label>
+    <input type="checkbox" name="find_choice" value="Challenging" id="CH">
+    <label for="CH">Challenging</label>
+    <input type="checkbox" name="find_choice" value="Still catching up" id="stu">
+    <label for="stu">Still catching up</label>
+    <input type="checkbox" name="find_choice" value="Too hard" id="th">
+    <label for="th">Too hard</label>
+    <input type="checkbox" name="find_choice" value="Too many exercises" id="tmx">
+    <label for="tmx">Too many exercises</label>
+    <input type="checkbox" name="find_choice" value="Not enough exercises" id="nee">
+    <label for="nee">Not enough exercises</label>
+    <input type="checkbox" name="find_choice" value="Confused" id="con">
+    <label for="con">Coufused</label>
+
+</fieldset>
+    <fieldset>
+        <input type="radio" name="find_experience" value="Learning a lot" id="lal">
+        <label for="lal">Learning a lot</label>
+        <input type="radio" name="find_experience" value="Not learning enough" id="nle">
+        <label for="nle">Not learning enough</label>
+        <input type="radio" name="find_experience" value="Okay" id="ok">
+        <label for="ok">Okay</label>
+
+<br><br>
+
+        <label for="foranimal">Pick your favorite animal:</label>
+        <select id="foranimal" name="animalName">
+            <option value="man" selected>Mandarin duck</option>
+            <option value="quo" selected>Quokka</option>
+            <option value="wom" selected>Wombat</option>
+            <option value="lyn" selected>Lynx</option>
+            <option value="pika" selected>Pika</option>
+            <option value="Red" selected>Red Panda</option>
+        </select><br><br><br><br>
+
+
+
+
+
+
+
+        <label for="textbox"></label>
+        <textarea id="textbox"
+                  name="textbox_text_area" rows="10" cols="80">Additional comments here</textarea>
+    </fieldset>
+
+
+<input type="submit" value="Done!">  <input type="reset" value="Clear!">
+
+</form>
+
+</body>
+</html>
